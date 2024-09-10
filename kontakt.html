@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Morion d.o.o.</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Morion računovodstvo">
+		<meta name="keywords" content="računovodstvo, savjetovanje, izrada, usluge">
+		<meta name="author" content="Leonardo Trobradović">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="design/style.css">
+        <link rel="stylesheet" href="design/kontakt.style.css">
+	</head>
+<body>
+    <header>
+		<a href="index.html"><div class="banner"></div></a>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Početna</a></li>
+			  <li><a href="usluge.html">Usluge</a></li>
+			  <li><a href="kontakt.html" class="active">Kontakt</a></li>
+			  <li><a href="onama.html">O nama</a></li>
+			  <li><a href="galerija.html">Galerija</a></li>
+			</ul>
+		</nav>
+    </header>
+    <main>
+		<section>
+			<h1>Kontaktirajte nas</h1>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.2411504700867!2d16.019557376644414!3d45.80642861053915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d62d65ae5d67%3A0x30f8e0cabefe741a!2sZapoljska%20Ul.%2020%2C%2010000%2C%20Zagreb!5e0!3m2!1sen!2shr!4v1715854975260!5m2!1sen!2shr" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="#" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">Ime*</label>
+				<input type="text" id="fname" name="firstname" placeholder="Vaše ime..." required>
+				<br>
+				<label for="lname">Prezime*</label>
+				<input type="text" id="lname" name="lastname" placeholder="Vaše prezime.." required>
+				<br>
+				<label for="lname">Elektronička adresa*</label>
+				<input type="email" id="email" name="email" placeholder="Vaša e-mail adresa..." required>
+				<br>
+				<label for="country">Država</label>
+				<select id="country" name="country">
+				  <option value="">Odaberite</option>
+				  <option value="HR" selected>Hrvatska</option>
+                  <option value="NjEM">Njemačka</option>
+				  <option value="AUS">Austija</option>
+                  <option value="SRB">Srbija</option>
+                  <option value="BiH">Bosna i Hercegovina</option>
+                  <option value="CG">Crna Gora</option>
+                  <option value="MK">Makedonija</option>
+				</select>
+				<br>
+				<label for="subject">Opis</label>
+				<textarea id="subject" name="subject" placeholder="Ovdje upišite upit..." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+    <footer>
+		<p>© Leonardo Trobradović | SVA PRAVA PRIDRŽANA</p>
+		<a class="github-link" href="https://github.com/Ltrobrad?tab=repositories"target="_blank"></a>
+	</footer>
+</body>
+</html>
