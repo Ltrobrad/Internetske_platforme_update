@@ -1,0 +1,30 @@
+.two-side {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.two-side figure {
+    flex-basis: 45%;
+    width: 45%;
+}
+
+.text-container {
+    flex: 1;
+}
+
+.services-list {
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+	.two-side {
+        flex-direction: column-reverse;
+    }
+
+    .two-side figure {
+        flex-basis: 100%;
+        width: 100%;
+    }
+}
